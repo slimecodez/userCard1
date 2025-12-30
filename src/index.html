@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="clean.css" /> -->
+  <link rel="stylesheet" href="style.css" />
+  <title>card1</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="window">
+      <header class="header">
+        <div class="header-dots dots-mobile">
+          <div class="header__dot"></div>
+          <div class="header__dot"></div>
+          <div class="header__dot"></div>
+        </div>
+        <div class="header__tabs">
+          <div class="header__tab">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="currentColor"
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zm-7 4h5v5h-5v-5z" />
+            </svg>
+            <p id="currentDate">Date</p>
+          </div>
+          <div class="header__tab">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="currentColor"
+                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7V7z" />
+            </svg>
+            <p id="currentTime">Time</p>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <div class="content-top">
+          <div class="top-block">
+            <div class="deco-img" id="top-deco-img">
+              <img src="https://media1.tenor.com/m/EqRW6rTqqDYAAAAd/green.gif" alt="deco" />
+            </div>
+          </div>
+          <div class="top-block">
+            <h3 class="top-block__h">nickname!</h3>
+            <p>User: <span>username</span></p>
+            <hr />
+            <p>Status: <span>username</span></p>
+            <hr />
+            <p>Last update: <span>username</span></p>
+          </div>
+          <div class="top-block">
+            <h3 class="top-block__h">links..</h3>
+            <table class="links-table">
+              <tr>
+                <td>1</td>
+                <td><a href="#"> tumblr</a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="#"> twitter</a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><a href="#"> link3</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="content-left">
+          <button class="btn wide-btns">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="currentColor"
+                d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+            </svg>
+            Message me
+          </button>
+          <div class="deco-img">
+            <img
+              src="https://i.pinimg.com/736x/82/64/81/8264812f8201508f42001079bad69b94.jpg"
+              alt="deco-img" />
+          </div>
+          <!-- <div class="playlist">
+            <div class="playlist-btns">
+              <button class="btn playlist__btn">Play</button>
+              <button class="btn playlist__btn">Add</button>
+            </div>
+
+            <audio id="audioPlayer" controls>
+              <source src="" type="audio/mpeg" />
+              no audio in your browser sorry:(
+            </audio>
+          </div> -->
+        </div>
+        <div class="content-right">
+          <div class="right-block">
+            <button class="btn wide-btns">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor"
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+              </svg>
+              Posts from This User
+            </button>
+            <div class="posts-reel">
+              <div class="post">
+                <div class="post-header">
+                  <p>
+                    About me <span class="post-head-dot"></span> - Posted: 4:05
+                    AM
+                  </p>
+                </div>
+                <div class="post-body">
+                  <p class="post__txt">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem voluptates praesentium minima quidem natus
+                    sapiente possimus eveniet minus accusamus assumenda alias
+                    quaerat, eius ab iusto eum! Officiis enim culpa tenetur?
+                  </p>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-header">
+                  <p>
+                    I like<span class="post-head-dot"></span> - Posted: 4:05
+                    AM
+                  </p>
+                </div>
+                <div class="post-body">
+                  <p class="post__txt">
+                  <ul class="post__ul">
+                    <li>food</li>
+                    <li>games</li>
+                    <li>trees</li>
+                  </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-header">
+                  <p>
+                    Photo <span class="post-head-dot"></span> - Posted: 4:05
+                    AM
+                  </p>
+                </div>
+                <div class="post-body">
+                  <img
+                    src="https://64.media.tumblr.com/129b730b2bd2a7493fdbda7f545db52a/36ae5271a2da496e-0a/s540x810/3ee2804e01190817b205894ad75ac1d9e9aa74f3.jpg"
+                    alt="myself" class="post__img">
+                  <p class="post__txt">
+                    cool treeee >3< </p>
+                </div>
+              </div>
+              <div class="post">
+                <div class="post-header">
+                  <p>
+                    About me <span class="post-head-dot"></span> Posted: 4:05
+                    AM
+                  </p>
+                </div>
+                <div class="post-body">
+                  <p class="post__txt">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorem voluptates praesentium minima quidem natus
+                    sapiente possimus eveniet minus accusamus assumenda alias
+                    quaerat, eius ab iusto eum! Officiis enim culpa tenetur?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="copyright">
+      <p>(C) Design by Unknown. Code by slimecodez.</p>
+    </div>
+  </div>
+
+  <script src="/src/script.js"></script>
+</body>
+
+</html>
